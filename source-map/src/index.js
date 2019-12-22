@@ -1,7 +1,7 @@
 
 class Agoni {
     constructor(){
-        console.log('I am agoni')
+        console.lo('I am agoni')
     }
 }
 let agoni = new Agoni();
