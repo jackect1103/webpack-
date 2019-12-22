@@ -1,0 +1,4 @@
+@import "./a.css";/*导入css文件*/
+body{
+    color: #fda100;
+}
