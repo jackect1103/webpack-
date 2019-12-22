@@ -34,5 +34,8 @@ module.exports = {
     // 2) 不会产生单独的源码映射文件，但会标识错误的行和列
     // devtool:'eval-source-map'
     // 3）会产生单独的源码文件，但不会标识错误的列
-    devtool:'cheap-module-source-map'
+    // devtool:'cheap-module-source-map'
+    // 4） 不会单独产生映射文件.map，同时也不会标识错误的列
+    devtool:'cheap--module-eval-source-map'
+
 }
